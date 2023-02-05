@@ -11,8 +11,8 @@ body {
 }
 
 .title {
-  font-weight: 700;
-  font-size: 14px;
+  font-weight: 500;
+  font-size: 20px;
   line-height: 18px;
 }
 
@@ -23,9 +23,9 @@ body {
 }
 
 .text-md {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 15px;
-  line-height: 17px;
+  line-height: 18px;
 }
 
 span,
@@ -35,8 +35,8 @@ div,
 input,
 .text-rg {
   font-weight: 400;
-  font-size: 14px;
-  line-height: 16px;
+  font-size: 15px;
+  line-height: 18px;
 }
 
 .caption {

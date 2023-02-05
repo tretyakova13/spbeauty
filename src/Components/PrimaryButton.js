@@ -5,7 +5,7 @@ import styled from "styled-components";
 
 function PrimaryButton(props) {
     // Здесь устанавливается минимальная ширина для кнопки
-    let minWidth = props.minWidth === undefined ? '144px' : props.minWidth; 
+    let minWidth = props.minWidth === undefined ? '217px' : props.minWidth; 
     const Button = styled.div`
         background: #3B82F6;
         solid #152842; border-radius: 24px;
@@ -16,7 +16,7 @@ function PrimaryButton(props) {
             background: linear-gradient(180deg, #4D9FF0 0%, #36699D 100%);
         }
         &:active {
-            background: ##FFFFFF;
+            background: #FFFFFF;
         }
     `;
     return (
@@ -25,6 +25,7 @@ function PrimaryButton(props) {
                 {props.children}
             </Button>
         </Clickable>
+
         
     );
 }
