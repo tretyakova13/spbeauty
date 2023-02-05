@@ -7,7 +7,7 @@ function SecondaryButton(props) {
     const Button = styled.div`
         background: #FFFFFF;
         min-width: ${minWidth};
-        color: #152842;
+        color: ;
         &:hover {
             background: linear-gradient(180deg, #DFEAF1 0%, #CFDDE8 100%);
         }
