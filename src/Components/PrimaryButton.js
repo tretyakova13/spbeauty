@@ -16,7 +16,7 @@ function PrimaryButton(props) {
             background: linear-gradient(180deg, #4D9FF0 0%, #36699D 100%);
         }
         &:active {
-            background: #FFFFFF;
+            background: #3B82F6;
         }
     `;
     return (
